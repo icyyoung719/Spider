@@ -47,4 +47,4 @@ data = {
     '点踩数':dislikels,
 }
 dataframe = pandas.DataFrame(data=data)
-dataframe.to_csv('bilibili热榜.csv', index=False, encoding='utf_8_sig')
+dataframe.to_csv('bilibili_hot.csv', index=False, encoding='utf_8_sig')

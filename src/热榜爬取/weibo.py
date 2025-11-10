@@ -37,4 +37,4 @@ data = {
     '类别':categorylist,
 }
 dataframe = pandas.DataFrame(data=data)
-dataframe.to_csv('微博热榜.csv', index=False, encoding='utf_8_sig')
+dataframe.to_csv('weibo_hot.csv', index=False, encoding='utf_8_sig')

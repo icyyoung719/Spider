@@ -37,7 +37,7 @@ data = {
 	'摘录': excerpt_list,
 }
 dataframe = pandas.DataFrame(data=data)
-dataframe.to_csv('知乎热榜.csv', index=False, encoding='utf_8_sig')
+dataframe.to_csv('zhihu_hot.csv', index=False, encoding='utf_8_sig')
 
 # @time 2021/12/24 2:10
 # @author Baneik
