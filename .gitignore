@@ -1,2 +1,5 @@
-﻿src/hot/out
+﻿## Ignore local config files that may contain secrets
+src/**/config.json
+src/hot/out
 .idea/
+.vscode/
